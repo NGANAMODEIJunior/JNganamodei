@@ -2,8 +2,8 @@
 <?php
       class personnage
      {
-       public $pseudo;
-       public $vie;
+       private $pseudo;
+       private $vie;
 
       
        
