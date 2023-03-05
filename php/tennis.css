@@ -1,7 +1,10 @@
 
 body {
-    background-image: url('Tournoi-de-tennis-945x630.jpg');
+    background-image: url('Tournoi-de-tennis-945x630');
     background-size: cover;
     
+}
+a {
+    border: 2px;
 }
 

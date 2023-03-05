@@ -15,8 +15,8 @@
 
             class User
            {
-                 public $nom;
-                 public $prenom;
+                 private $_nom;
+                 private $_prenom;
 
                   public function afficheUser()
                    {

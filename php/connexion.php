@@ -28,8 +28,10 @@ Mot de passe: <input type="password" name="password" />
 $login = 'Admin';
 $password ='root';
 if(loginForm($login, $password)=='ok'){
-    echo ' <b>Vous êtes connecté!</b> <br> <a
-    href="http://localhost/php/Devoir1.php"> cliquer pour programmer les matchs</a></br>';
+    echo ' <p><b>Vous etes connecté en tant que Administrateur </b>
+   
+     
+    <a href="http://192.168.65.204/junior/php/tennis.php"> programmer </a>' ;
 
 }?>
 
