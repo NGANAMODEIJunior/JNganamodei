@@ -41,8 +41,8 @@
    
 
     <form action="" method="post">
-        login: <input type="tex" name="login"/>
-        pass: <input type="password" name="pass"/>
+        login: <input type="tex" name="login" value="julien"/>
+        pass: <input type="password" name="pass" value="julien"/>
         <input type="submit" name="connexion"/>
 
     </form>
