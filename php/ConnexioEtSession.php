@@ -14,7 +14,7 @@
         $nomBase = "premierSite";
         $loginPrivilege = "root";
         $passPrivilege = "root";
-        $pdo = new PDO('msql:host='.$ipserver.';dbame='.$nomBase.'',' '.$loginPrivilege.'','  '.$passPrivilege.'');
+        $GLOBALS["pdo"] = new PDO('msql:host='.$ipserver.';dbame='.$nomBase.'',' '.$loginPrivilege.'','  '.$passPrivilege.'');
       
     }catch (Exception $error){ 
         $error->getMessage();}
