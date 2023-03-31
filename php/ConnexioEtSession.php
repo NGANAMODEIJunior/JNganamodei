@@ -24,7 +24,7 @@
         //traitement formulaire
           // on va verifier  base que le login et le pass sont sont en BDD
           $requetSql="SELECT * FROM `user` WHERE `login`='".$_POST['login']."' AND `pass`='".$_POST['pass']." ";
-          $resutat = $pdo->query($requetSql);// resultat sera de pe pdoStatement
+          $resutat =  $GLOBALS["pdo"]->query($requetSql);// resultat sera de pe pdoStatement
           if($resutat->rowcount()>0){
               echo "on a trouver le bon login";
           }else{
