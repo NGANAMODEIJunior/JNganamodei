@@ -21,7 +21,7 @@ if(Mavariablestring == "toto" && nombre !=200 || nombre <=100){
 } 
 
 
-<script type="text/javascript" src="main.js">
+<script type="text/javascript" src="main.js"/>
 
 
 </script> 

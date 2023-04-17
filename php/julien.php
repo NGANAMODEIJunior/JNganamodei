@@ -1,4 +1,6 @@
-﻿ Chargement Class User ﻿
+﻿
+ù
+Chargement Class User ﻿
 <?php
 echo "Chargement Class User";
 class User{
