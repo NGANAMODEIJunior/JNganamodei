@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #f4f4f4;
+}
+
+h1 {
+    margin-top: 20px;
+    color: #333;
+}
+
+.rapper-pair {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.rapper {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 10px;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.rapper img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.rapper h2 {
+    margin: 0;
+    color: #333;
+}
+
+.rapper p {
+    color: #666;
+}
+
+.rapper a {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
