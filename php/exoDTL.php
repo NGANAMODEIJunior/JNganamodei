@@ -23,7 +23,7 @@ class Client{
             ";
             $this->pdo_->query($sql);
         }
-}
+}?>
 <?php include ("Classes/Client.php"); 
 highlight_file(__FILE__);
 ?>
